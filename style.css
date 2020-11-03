@@ -1410,4 +1410,8 @@ background-color: #e80566 !important;
     .dropdown-contant2::before{
         display: none;
     }
+    
+    .customTab ul li a{
+        padding-left: 1px !important;
+    }
   }
