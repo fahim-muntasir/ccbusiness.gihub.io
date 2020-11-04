@@ -180,3 +180,10 @@ $(document).ready(function() {
     document.querySelector(".submenuToggle2").classList.remove("subMenyshow");
     getidsub2.classList.remove("subMenuBg");
   })
+
+
+ // loading page js
+
+  $(window).on("load",()=>{
+    $(".loader-wrapper").fadeOut("slow");
+  })
